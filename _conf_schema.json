@@ -1,0 +1,31 @@
+{
+    "flow_api_url": {
+        "description": "Flow2API服务地址",
+        "type": "string",
+        "default": "",
+        "hint": "例如：http://127.0.0.1:8000（自动补全后缀/v1/chat/completions）"
+    },
+    "flow_api_key": {
+        "description": "API Key",
+        "type": "string",
+        "default": ""
+    },
+    "model": {
+        "description": "模型名称",
+        "type": "string",
+        "options": [
+            "gemini-3.0-pro-image-landscape",
+            "gemini-3.0-pro-image-portrait",
+            "gemini-3.0-pro-image-square",
+            "gemini-3.0-pro-image-four-three",
+            "gemini-3.0-pro-image-three-four",
+            "gemini-3.1-flash-image-landscape",
+            "gemini-3.1-flash-image-portrait",
+            "gemini-3.1-flash-image-square",
+            "gemini-3.1-flash-image-four-three",
+            "gemini-3.1-flash-image-three-four"
+        ],
+        "default": "gemini-3.0-pro-image-landscape",
+        "hint": "使用的模型名称，会自动根据比例切换 landscape/portrait/square/four-three/three-four"
+    }
+}
