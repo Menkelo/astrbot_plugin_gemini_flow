@@ -1,0 +1,9 @@
+name: astrbot_plugin_gemini_flow
+display_name: Flow绘图
+desc: 基于Flow2API的绘图插件，支持文生图/图生图、全局预设、自动比例模型切换
+version: 1.6.0
+author: Menkelo
+support_platforms: 
+  - aiocqhttp
+astrbot_version: ">=4.14.0"
+repo: "https://github.com/Menkelo/astrbot_plugin_gemini_flow"
