@@ -1,6 +1,6 @@
 # Gemini Flow 绘图插件
 
-基于 Flow2API 的 AstrBot 绘图插件，支持文生图 / 图生图、全局预设、自动比例模型切换。
+基于 [Flow2API](https://github.com/TheSmallHanCat/flow2api) 的 AstrBot 绘图插件，支持文生图 / 图生图、全局预设、自动比例模型切换。
 
 ---
 
