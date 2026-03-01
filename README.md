@@ -25,7 +25,7 @@
 
 - `flow_api_url`：Flow2API 服务地址  
   例如：`http://127.0.0.1:8000`  
-  （插件会自动补全为 `/v1/chat/completions`）
+  （插件自动补全 `/v1/chat/completions`）
 
 - `flow_api_key`：API Key
 
